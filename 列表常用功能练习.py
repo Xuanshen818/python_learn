@@ -1,0 +1,15 @@
+list = [21,25,21,23,22,20]
+list.append(31)
+print(f"{list}")
+List = [29,33,30]
+list.extend(List)
+print(f"{list}")
+get = list.pop(0)
+print(f"{list}")
+print(f"{get}")
+gain = list.pop(-1)
+print(f"{list}")
+print(f"{gain}")
+check = list.index(31)
+print(f"{list}")
+print(f"{check}")
